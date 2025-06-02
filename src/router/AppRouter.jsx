@@ -8,7 +8,7 @@ import CreatePostPage from '../pages/CreatePostPage'
 
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cc20-project-post02/">
         <Routes>
             <Route path='/' element={<MainLayout />}>
             <Route index element={<PostPage />}/>
